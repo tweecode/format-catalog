@@ -238,6 +238,7 @@
 	{
 		name: "Poof",
 		author: "Chapel",
+		docs: "https://twinelab.net/poof/",
 		base: "https://twinelab.net/poof/use/",
 		icon: "icon.svg",
 		repo: "https://github.com/ChapelR/poof",
@@ -267,7 +268,7 @@
 	{
 		name: "Protagonist",
 		author: "Massive Danger",
-		docs: "https://github.com/massivedanger/protagonist/blob/master/README.md",
+		docs: "https://github.com/massivedanger/protagonist/",
 		base: "https://cdn.rawgit.com/massivedanger/protagonist/master/dist/",
 		icon: "icon.svg",
 		repo: "https://github.com/massivedanger/protagonist",
@@ -321,7 +322,7 @@
 	{
 		name: "Snowcat",
 		author: "Michael Ramaker",
-		docs: "https://bitbucket.org/crzybvr69/snowcat/src/default/README.md",
+		docs: "https://bitbucket.org/crzybvr69/snowcat/",
 		base: "",
 		icon: "icon.svg",
 		repo: "https://bitbucket.org/crzybvr69/snowcat/",
