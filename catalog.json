@@ -86,7 +86,7 @@
 		"proofing": true,
 		"tags": [],
 		"extendedDescription": "exports a Twine 2 story into a MultiMarkdown format used for importing into Scrivener or Scree",
-		"basedOn": "entwee"
+		"basedOn": "Entweedle"
 	},
 	{
 		"name": "entwee",
@@ -100,8 +100,9 @@
 		"twine2": true,
 		"proofing": true,
 		"tags": ["twee"],
-		"extendedDescription": "exports a Twine 2 story into the twee plain text format",
-		"basedOn": "Entweedle"
+		"extendedDescription": "exports a Twine 2 story into the twee plain text format and automatically downloads it as text",
+		"basedOn": "enscree",
+		"notes": "Proof of concept that you can work around \"the issue Entweedle can't work around\" in https://github.com/klembot/twinejs/issues/289"
 	},
 	{
 		"name": "Entweedle",
