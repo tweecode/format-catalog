@@ -12,14 +12,15 @@ I did not include the url field because I broke the web locations down into more
 
 ### The fields
 
-* name, author, license, proofing, icon, and description are taken from the story format; "url" is reserved for that use but not present.
+* name, author, license, proofing, icon, and description are taken from the story format itself; "url" is reserved for that use but not present.
 * docs: a URL providing significant documentation (in the case of Snowman clones, documentation beyond the copy of Snowman's docs).
-* base: the base url for getting the format, ideally using HTTPS.  Note that github will not serve this file correctly, so don't put a github link into this field.
+* demo: a URL providing a demo story.
+* base: the base url for getting the format, ideally using HTTPS.  Note that github will not serve format files correctly, so don't put a github link into this field.
 * format: the filename of the story format if it isn't "format.js".  (Yes, someone went there.)
-* repo: the URL of the code repository for the format
+* repo: the URL of the code repository for the format.
 * official (boolean): is this an official Twine 1 or 2 format?
-* twine1 (boolean): the format supports Twine 1
-* twine2 (boolean): the format supports Twine 2
+* twine1 (boolean): the format supports Twine 1.
+* twine2 (boolean): the format supports Twine 2.
 * tags (array of string): various notable facts about the format, including "stretchtext","markdown", "beta", "unavailable", "twee".  Feel free to add more.
 * extendedDescription: a more detailed or comparative description than the one included in the story format.
 * basedOn: the parent format.
