@@ -12,6 +12,7 @@
 		"tags": [],
 		"description": "A story format to create RPG stories with health, loot, gold and more. See its <a href=\"https://longwelwind.github.io/adventures/\">documentation</a>",
 		"extendedDescription": "\"allows writers to add RPG elements such as health, items, golds and more to their story\"",
+		"basedOn": "Snowman",
 		"notes": "Note that rawgit is shutting down, though this particular repository was still being served at the time of writing."
 	},
 	{
