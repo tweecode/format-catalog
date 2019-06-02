@@ -266,7 +266,7 @@
 		"twine1": false,
 		"twine2": true,
 		"proofing": true,
-		"tags": ["beta"],
+		"tags": [],
 		"description": "A proofing format.",
 		"basedOn": ""
 	},
