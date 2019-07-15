@@ -20,14 +20,18 @@
 		"author": "Chris Klimas",
 		"docs": "https://klembot.github.io/chapbook/",
 		"demo": "https://klembot.github.io/chapbook/examples/cloak-of-darkness.html",
-		"base": "https://klembot.github.io/chapbook/use/0.1.0/",
+		"base": "https://klembot.github.io/chapbook/use/1.0.0-beta2/",
+		"icon": "logo.svg",
+		"repo": "https://github.com/klembot/chapbook",
+		"license": "MIT License",
 		"official": false,
 		"twine1": false,
 		"twine2": true,
 		"proofing": false,
 		"tags": ["markdown","beta"],
-		"description": "",
-		"extendedDescription": "a new format \"designed to be easy to work with as an author and generate output that is a pleasure to read by players\""
+		"description": "A Twine story format emphasizing ease of authoring, multimedia, and playability on many different types of devices.",
+		"extendedDescription": "a new format \"designed to be easy to work with as an author and generate output that is a pleasure to read by players\"",
+		"notes": "There's also a 'micro' version without test-related code available at https://klembot.github.io/chapbook/use/1.0.0-beta2-micro/format.js."
 	},
 	{
 		"name": "DotGraph",
@@ -361,14 +365,15 @@
 		"author": "Chris Klimas",
 		"base": "https://twinery.org/2/story-formats/snowman-1.3.0/",
 		"icon": "icon.svg",
-		"repo": "https://github.com/klembot/snowman",
+		"repo": "https://github.com/videlais/snowman",
 		"official": true,
 		"twine1": true,
 		"twine2": true,
 		"proofing": false,
 		"tags": [],
+		"description": "A minimal story format for authors experienced with HTML, CSS, and JavaScript.",
 		"extendedDescription": "a bare-bones built-in Twine 2 story format for those fluent in JavaScript, upon which many indie formats have been based",
-		"notes": "The Twine 1 version repo is at https://bitbucket.org/klembot/snowman-1.4/."
+		"notes": "The Twine 1 version repo is at https://bitbucket.org/klembot/snowman-1.4/.  The main repo has a new maintainer."
 	},
 	{
 		"name": "Sugarcane",
@@ -423,6 +428,21 @@
 		"tags": [],
 		"extendedDescription": "exports a story to JSON, possibly in hierarchical format",
 		"notes": "This format was once hosted, but that domain is gone."
+	},
+	{
+		"name": "twine-monogatari",
+		"author": "Haroldo O. Pinheiro",
+		"demo": "http://www.haroldo-ok.com/twine-monogatari/v0.1.0/demo.html",
+		"base": "http://www.haroldo-ok.com/twine-monogatari/v0.1.0/",
+		"repo": "https://github.com/haroldo-ok/twine-monogatari/",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": [],
+		"description": "Allows one to use Twine to create Visual Novels for the Monogatari engine.",
+		"basedOn": "Twison"
 	},
 	{
 		"name": "TwingeX",
