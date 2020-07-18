@@ -40,7 +40,7 @@
 		"demo": "http://mcdemarco.net/tools/scree/test-dotgraph.html",
 		"base": "https://mcdemarco.net/tools/scree/dotgraph/",
 		"icon": "icon.svg",
-		"repo": "https://bitbucket.org/mcdemarco/dotgraph",
+		"repo": "https://github.com/mcdemarco/dotgraph",
 		"official": false,
 		"twine1": true,
 		"twine2": true,
@@ -56,7 +56,7 @@
 		"demo": "http://mcdemarco.net/tools/scree/test-dotscap.scap",
 		"base": "https://mcdemarco.net/tools/scree/dotscap/",
 		"icon": "icon.svg",
-		"repo": "https://bitbucket.org/mcdemarco/dotscap",
+		"repo": "https://github.com/mcdemarco/dotscap",
 		"official": false,
 		"twine1": true,
 		"twine2": true,
@@ -153,7 +153,7 @@
 		"docs": "https://twine2.neocities.org",
 		"base": "https://twinery.org/2/story-formats/harlowe-2.1.0/",
 		"icon": "icon.svg",
-		"repo": "https://bitbucket.org/_L_/harlowe/",
+		"repo": "https://foss.heptapod.net/games/harlowe",
 		"official": true,
 		"twine1": false,
 		"twine2": true,
@@ -176,6 +176,20 @@
 		"extendedDescription": "an \"experiment in producing a proofing format for Twine 2 that offers more functionality than a simple text dump\"",
 		"basedOn": "",
 		"notes": "Please note that the online version of Twine 2 requires that you change the \"http\" in the url shown at the format's website to \"https\" in order to load this format."
+	},
+	{
+		"name": "Jinx",
+		"author": "Derek Timm-Brock",
+		"repo": "https://github.com/derektb/jinx",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"license": "MIT License",
+		"tags": [],
+		"description": "A Twine 2 story format for building and running interactive comics in Twine",
+		"extendedDescription": "\"A Twine story format for making interactive comics\"",
+		"notes": "Migrated from Twize."
 	},
 	{
 		"name": "Jonah",
@@ -235,7 +249,7 @@
 		"demo": "http://mcdemarco.net/tools/scree/test-paloma.html",
 		"base": "http://mcdemarco.net/tools/scree/paloma/",
 		"icon": "icon.svg",
-		"repo": "https://bitbucket.org/mcdemarco/paloma/",
+		"repo": "https://github.com/mcdemarco/paloma/",
 		"official": false,
 		"twine1": true,
 		"twine2": true,
@@ -281,7 +295,7 @@
 		"demo": "http://mcdemarco.net/tools/scree/test-prepub.epub",
 		"base": "https://mcdemarco.net/tools/scree/prepub/",
 		"icon": "icon.svg",
-		"repo": "https://bitbucket.org/mcdemarco/prepub/src/default/",
+		"repo": "https://github.com/mcdemarco/prepub/src/default/",
 		"official": false,
 		"twine1": true,
 		"twine2": true,
@@ -358,7 +372,7 @@
 		"tags": [],
 		"extendedDescription": "\"creating a merger of Snowman and Harlowe\"",
 		"basedOn": "Snowman",
-		"notes": "Insert your own abominable joke here."
+		"notes": "Insert your own abominable joke here.  The repo is in Mercurial on Bitbucket and endangered."
 	},
 	{
 		"name": "Snowman",
@@ -488,7 +502,8 @@
 		"license": "MIT License",
 		"tags": ["stretchtext"],
 		"description": "An opinionated Twine storyformat designed for making Wizard Town-style interactive comics",
-		"extendedDescription": "\"an opinionated Twine StoryFormat designed for building and displaying interactive comics\""
+		"extendedDescription": "\"an opinionated Twine StoryFormat designed for building and displaying interactive comics\"",
+		"notes": "The repo is in Mercurial on Bitbucket and endangered.  Apparently replaced by Jinx."
 	},
 	{
 		"name": "Wasteland",
@@ -499,6 +514,7 @@
 		"twine2": false,
 		"proofing": false,
 		"tags": [],
-		"extendedDescription": "\"a semantic Twine [1] Story Format focused on readability\""
+		"extendedDescription": "\"a semantic Twine [1] Story Format focused on readability\"",
+		"notes": "The repo is in git on Bitbucket and not endangered."
 	}
 ]
