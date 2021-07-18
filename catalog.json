@@ -16,11 +16,28 @@
 		"notes": "Note that rawgit is shutting down, though this particular repository was still being served at the time of writing."
 	},
 	{
+		"name": "Botscripten",
+		"author": "Aibex, Inc",
+		"docs": "https://github.com/aibex/botscripten/blob/master/FOR_AUTHORS.md",
+		"base": "https://cdn.jsdelivr.net/gh/aibex/botscripten@master/dist/Twine2/Botscripten/",
+		"icon": "icon.svg",
+		"repo": "https://github.com/aibex/botscripten",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": ["stretchtext"],
+		"description": "An interactive chat viewer",
+		"extendedDescription": "A modified Twine engine specifically for chat conversations",
+		"basedOn": "Trialogue",
+		"notes": "Despite the modified Twine engine, there is a story format here."
+	},
+	{
 		"name": "Chapbook",
 		"author": "Chris Klimas",
 		"docs": "https://klembot.github.io/chapbook/",
 		"demo": "https://klembot.github.io/chapbook/examples/cloak-of-darkness.html",
-		"base": "https://klembot.github.io/chapbook/use/1.0.0-beta2/",
+		"base": "https://klembot.github.io/chapbook/use/1.2.1/",
 		"icon": "logo.svg",
 		"repo": "https://github.com/klembot/chapbook",
 		"license": "MIT License",
@@ -122,7 +139,7 @@
 		"tags": ["twee"],
 		"extendedDescription": "the original twee-ifying story format for Twine 2",
 		"basedOn": "",
-		"notes": "Please note that the online version of Twine 2 requires that you change the \"http\" in the url shown at the format's website to \"https\" in order to load this format."
+		"notes": "Updated to create StoryData, though in a way that upsets Tweego."
 	},
 	{
 		"name": "Foil",
@@ -151,7 +168,7 @@
 		"name": "Harlowe",
 		"author": "Leon Arnott",
 		"docs": "https://twine2.neocities.org",
-		"base": "https://twinery.org/2/story-formats/harlowe-2.1.0/",
+		"base": "https://twinery.org/2/story-formats/harlowe-3.2.2/",
 		"icon": "icon.svg",
 		"repo": "https://foss.heptapod.net/games/harlowe",
 		"official": true,
@@ -372,12 +389,12 @@
 		"tags": [],
 		"extendedDescription": "\"creating a merger of Snowman and Harlowe\"",
 		"basedOn": "Snowman",
-		"notes": "Insert your own abominable joke here.  The repo is in Mercurial on Bitbucket and endangered."
+		"notes": "Insert your own abominable joke here.  The repo was in Mercurial on Bitbucket and deleted."
 	},
 	{
 		"name": "Snowman",
 		"author": "Chris Klimas",
-		"base": "https://twinery.org/2/story-formats/snowman-1.3.0/",
+		"base": "https://twinery.org/2/story-formats/snowman-2.0.2/",
 		"icon": "icon.svg",
 		"repo": "https://github.com/videlais/snowman",
 		"official": true,
@@ -387,7 +404,7 @@
 		"tags": [],
 		"description": "A minimal story format for authors experienced with HTML, CSS, and JavaScript.",
 		"extendedDescription": "a bare-bones built-in Twine 2 story format for those fluent in JavaScript, upon which many indie formats have been based",
-		"notes": "The Twine 1 version repo is at https://bitbucket.org/klembot/snowman-1.4/.  The main repo has a new maintainer."
+		"notes": "The Twine 1 version repo was in Mercurial on Bitbucket and deleted.  The main repo has a new maintainer."
 	},
 	{
 		"name": "Sugarcane",
@@ -405,7 +422,7 @@
 		"name": "SugarCube",
 		"author": "Thomas Michael Edwards",
 		"docs": "http://www.motoslave.net/sugarcube/2/docs/",
-		"base": "https://twinery.org/2/story-formats/sugarcube-2.28.2/",
+		"base": "https://twinery.org/2/story-formats/sugarcube-2.34.1/",
 		"icon": "icon.svg",
 		"repo": "",
 		"official": true,
@@ -503,7 +520,7 @@
 		"tags": ["stretchtext"],
 		"description": "An opinionated Twine storyformat designed for making Wizard Town-style interactive comics",
 		"extendedDescription": "\"an opinionated Twine StoryFormat designed for building and displaying interactive comics\"",
-		"notes": "The repo is in Mercurial on Bitbucket and endangered.  Apparently replaced by Jinx."
+		"notes": "The repo was in Mercurial on Bitbucket and deleted.  Apparently replaced by Jinx."
 	},
 	{
 		"name": "Wasteland",
