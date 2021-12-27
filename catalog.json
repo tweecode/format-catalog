@@ -339,6 +339,23 @@
 		"notes": "Note that rawgit is shutting down, though this particular repository was still being served at the time of writing."
 	},
 	{
+		"name": "reach",
+		"author": "Mike Spears",
+		"docs": "https://ecampusontario.pressbooks.pub/reach/",
+		"base": "https://github.com/UofTMADLab/reach-dist/",
+		"icon": "icon.svg",
+		"repo": "https://github.com/UofTMADLab/reach-dist",
+		"license": "MIT",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": ["markdown"],
+		"description": "reach is a twine story format for authoring immersive XR narratives, environments and prototypes.",
+		"basedOn": "Snowman",
+		"notes": "Note that source code is not provided.  The Snowman basis is a rumor."
+	},
+	{
 		"name": "Responsive",
 		"author": "",
 		"docs": "https://twinery.org/wiki/twine1:reference",
@@ -544,7 +561,7 @@
 		"twine1": false,
 		"twine2": true,
 		"proofing": false,
-		"tags": [],
+		"tags": ["gamebook"],
 		"extendedDescription": "Outputs a twine story in gamebook format, listing all passages in a shuffled order, and changing links to a '(turn to 123)' instruction",
 		"notes": "Note that the full path is base + writingfantasy_1.js or writingfantasy_1_min.js; this is the only catalogued format not named 'format.js' (or minified).  H/t gordianbook.art."
 	}
