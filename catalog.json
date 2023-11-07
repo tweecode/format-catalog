@@ -16,6 +16,22 @@
 		"notes": "Note that rawgit is shutting down, though this particular repository was still being served at the time of writing."
 	},
 	{
+		"name": "AdventureTome",
+		"author": "Sophie Houlden",
+		"repo": "https://codeberg.org/MxSophie/AdventureTome",
+		"docs": "https://sophiehoulden.com/twine/at/guide.html",
+		"base": "https://sophiehoulden.com/twine/at/",
+		"icon": "aticon.svg",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": ["gamebook"],
+		"description": "Displays twine stories as playable adventure gamebooks, complete with character sheet and full undo/redo.",
+		"extendedDescription": "A story format for Twine that presents stories as a playable gamebook in the browser, complete with character sheets, dice, and an undo history",
+		"notes": "Related to WritingFantasy and somewhat compatible with Gordian Book (gordianbook.art)."
+	},
+	{
 		"name": "Botscripten",
 		"author": "Aibex, Inc",
 		"docs": "https://github.com/aibex/botscripten/blob/master/FOR_AUTHORS.md",
@@ -33,11 +49,26 @@
 		"notes": "Despite the modified Twine engine, there is a story format here."
 	},
 	{
+		"name": "Boundless",
+		"author": "Brandon Tom",
+		"docs": "https://github.com/magicink/boundless/blob/develop/README.md",
+		"base": "https://github.com/magicink/boundless/releases/download/v0.0.7/",
+		"repo": "https://github.com/magicink/boundless",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": [],
+		"description": "a React-based story format for Twine",
+		"notes": "One wonders how well serving a story format from a github releases page works."
+	},
+	{
 		"name": "Chapbook",
 		"author": "Chris Klimas",
 		"docs": "https://klembot.github.io/chapbook/",
 		"demo": "https://klembot.github.io/chapbook/examples/cloak-of-darkness.html",
-		"base": "https://klembot.github.io/chapbook/use/1.2.1/",
+		"base": "https://klembot.github.io/chapbook/use/1.2.3/",
 		"icon": "logo.svg",
 		"repo": "https://github.com/klembot/chapbook",
 		"license": "MIT License",
@@ -47,8 +78,22 @@
 		"proofing": false,
 		"tags": ["markdown","beta"],
 		"description": "A Twine story format emphasizing ease of authoring, multimedia, and playability on many different types of devices.",
-		"extendedDescription": "a new format \"designed to be easy to work with as an author and generate output that is a pleasure to read by players\"",
-		"notes": "There's also a 'micro' version without test-related code available at https://klembot.github.io/chapbook/use/1.0.0-beta2-micro/format.js."
+		"extendedDescription": "a new official format \"designed to be easy to work with as an author and generate output that is a pleasure to read by players\"",
+		"notes": "There's also a 'micro' version without test-related code available at https://klembot.github.io/chapbook/use/1.2.3-micro/format.js."
+	},
+	{
+		"name": "Daelog",
+		"author": "Dan Cox",
+		"repo": "https://github.com/videlais/daelog",
+		"base": "https://videlais.github.io/daelog/",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": [],
+		"description": "An experimental story format for generating conversations using Tracery + Twine",
+		"extendedDescription": "an experimental Twine story format incorporating Tracery"
 	},
 	{
 		"name": "DotGraph",
@@ -63,6 +108,7 @@
 		"twine2": true,
 		"proofing": true,
 		"tags": [],
+		"description": "A proofing format to make a Graphviz graph of a story.",
 		"extendedDescription": "displays a graph of your story, with several options for color-coding, clustering, and labeling nodes; it also detects unreachable nodes and terminal leaves",
 		"basedOn": ""
 	},
@@ -79,6 +125,7 @@
 		"twine2": true,
 		"proofing": true,
 		"tags": [],
+		"description": "A proofing format to make a Scapple graph of a story.",
 		"extendedDescription": "a DotGraph-like format that converts your story into a Scapple mind-map graph and includes a subset of DotGraph's rendering options",
 		"basedOn": "DotGraph"
 	},
@@ -107,6 +154,7 @@
 		"twine2": true,
 		"proofing": true,
 		"tags": [],
+		"description": "Free utility format to export your story for import to Scree.",
 		"extendedDescription": "exports a Twine 2 story into a MultiMarkdown format used for importing into Scrivener or Scree",
 		"basedOn": "Entweedle"
 	},
@@ -122,6 +170,7 @@
 		"twine2": true,
 		"proofing": true,
 		"tags": ["twee"],
+		"description": "Export your story to a Twee text file.",
 		"extendedDescription": "exports a Twine 2 story into the twee plain text format and automatically downloads it as text",
 		"basedOn": "enscree",
 		"notes": "Proof of concept that you can work around \"the issue Entweedle can't work around\" in https://github.com/klembot/twinejs/issues/289"
@@ -135,11 +184,26 @@
 		"official": false,
 		"twine1": false,
 		"twine2": true,
-		"proofing": true,
+		"proofing": false,
 		"tags": ["twee"],
+		"description": "Free utility format to export your story into Twee 3 format.",
 		"extendedDescription": "the original twee-ifying story format for Twine 2",
-		"basedOn": "",
-		"notes": "Updated to create StoryData, though in a way that upsets Tweego."
+		"notes": "Updated to create StoryData, though in a way that upsets Tweego.  Ought to be a proofing format but isn't currently."
+	},
+	{
+		"name": "Example",
+		"author": "Dan Cox",
+		"repo": "https://github.com/videlais/example-story-format",
+		"base": "https://videlais.github.io/example-story-format/dist/",
+		"docs": "https://videlais.com/2020/02/28/creating-your-own-twine-2-story-format-part-1-understanding-twine-2-html-structures/",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": [],
+		"description": "An example story format",
+		"extendedDescription": "An example story format for Twine 2"
 	},
 	{
 		"name": "Foil",
@@ -168,7 +232,7 @@
 		"name": "Harlowe",
 		"author": "Leon Arnott",
 		"docs": "https://twine2.neocities.org",
-		"base": "https://twinery.org/2/story-formats/harlowe-3.2.3/",
+		"base": "https://twinery.org/2/story-formats/harlowe-3.3.7/",
 		"icon": "icon.svg",
 		"repo": "https://foss.heptapod.net/games/harlowe",
 		"official": true,
@@ -176,7 +240,7 @@
 		"twine2": true,
 		"proofing": false,
 		"tags": [],
-		"description": "The default story format for Twine 2. See its <a href=\"http://twine2.neocities.org/\" target=\"_blank\" rel=\"noopener noreferrer\">documentation</a>.",
+		"description": "The default story format for Twine 2, with numerous programming features and a rich passage editor. No HTML, JS or CSS experience required. Consult its <a href='https://twine2.neocities.org/' target='_blank' rel='noopener noreferrer'>documentation</a>.",
 		"extendedDescription": "the default Twine 2 story format, pretty and opinionated"
 	},
 	{
@@ -190,8 +254,8 @@
 		"twine2": true,
 		"proofing": true,
 		"tags": [],
+		"description": "Free proofing format integrating basic workflow features for collaborative work.",
 		"extendedDescription": "an \"experiment in producing a proofing format for Twine 2 that offers more functionality than a simple text dump\"",
-		"basedOn": "",
 		"notes": "Please note that the online version of Twine 2 requires that you change the \"http\" in the url shown at the format's website to \"https\" in order to load this format."
 	},
 	{
@@ -206,6 +270,7 @@
 		"tags": [],
 		"description": "A Twine 2 story format for building and running interactive comics in Twine",
 		"extendedDescription": "\"A Twine story format for making interactive comics\"",
+		"basedOn": "Snowman",
 		"notes": "Migrated from Twize."
 	},
 	{
@@ -234,6 +299,22 @@
 		"notes": "Available for download at http://www.glorioustrainwrecks.com/files/Journal.zip."
 	},
 	{
+		"name": "JTwine-to-JSON",
+		"author": "Jason Francis",
+		"base": "https://cdn.githubraw.com/BL-MSCH-C220/JTwine-to-JSON/main/",
+		"repo": "https://github.com/BL-MSCH-C220/JTwine-to-JSON",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": ["JSON"],
+		"description": "Export your Twine 2 story as a JSON document, based on Twine-to-JSON",
+		"extendedDescription": "A story format for converting a Twine 2 story to JSON with special support for Harlowe 3.x.  Specifically created for MSCH-C220 at Indiana University—Bloomington.",
+		"basedOn": "Twine-to-JSON",
+		"notes": "This ought to be a proofing format, but isn't."
+	},
+	{
 		"name": "Mirapol",
 		"author": "",
 		"base": "",
@@ -244,6 +325,22 @@
 		"proofing": false,
 		"tags": [],
 		"extendedDescription": "a rumored story format"
+	},
+	{
+		"name": "Moontale",
+		"author": "Hamish Milne",
+		"repo": "https://github.com/hamish-milne/moontale/",
+		"docs": "https://moontale.hmilne.cc",
+		"base": "https://hamish-milne.github.io/moontale/",
+		"icon": "icon.svg",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"license": "MIT License",
+		"tags": [],
+		"description": "A Twine 2 story format that outputs Lua",
+		"extendedDescription": "For \"developers of text-driven or narrative-heavy games using Unity, Unreal, LÖVE, or any other engine that supports Lua, who would benefit from the use of Twine as a development tool.\""
 	},
 	{
 		"name": "OldFashioned",
@@ -281,29 +378,49 @@
 		"base": "https://twinery.org/2/story-formats/paperthin-1.0.0/",
 		"icon": "icon.svg",
 		"repo": "https://github.com/klembot/paperthin/",
+		"license": "ZLib/Libpng",
 		"official": true,
 		"twine1": false,
 		"twine2": true,
 		"proofing": true,
 		"tags": [],
+		"description": "The default proofing format for Twine 2. Icon designed by <a href=\"http://www.thenounproject.com/Simon Child\">Simon Child</a> from the <a href=\"http://www.thenounproject.com\">Noun Project</a>",
 		"extendedDescription": "the built-in proofing format for Twine 2",
-		"basedOn": ""
+		"notes": "Paperthin takes a pure CSS approach to display passage contents."
 	},
 	{
 		"name": "Poof",
 		"author": "Chapel",
 		"docs": "https://twinelab.net/poof/",
 		"demo": "https://twinelab.net/poof/demo/",
-		"base": "https://twinelab.net/poof/use/",
+		"base": "https://cdn.jsdelivr.net/gh/chapelr/poof@latest/docs/use/",
 		"icon": "icon.svg",
 		"repo": "https://github.com/ChapelR/poof",
+		"license": "The Unlicense",
 		"official": false,
 		"twine1": false,
 		"twine2": true,
 		"proofing": true,
 		"tags": [],
 		"description": "A proofing format.",
-		"basedOn": ""
+		"extendedDescription": "Poof is a Twine 2 proofing and utility format that empowers you to review, edit, and proofread your content in a more productive way.",
+		"notes": "Despite the humble description, Poof does much more than proof."
+	},
+	{
+		"name": "Poste-Monstre-Tresor",
+		"author": "Diane Landais",
+		"docs": "https://github.com/ker0chan/poste-monstre-tresor-story-format/blob/main/README.md",
+		"base": "https://ker0chan.github.io/poste-monstre-tresor-story-format/dist/",
+		"repo": "https://github.com/ker0chan/poste-monstre-tresor-story-format",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": ["gamebook"],
+		"description": "A linear rendering of a story, using numbers for passages and the links between them.",
+		"extendedDescription": "A custom Twine 2 format to render stories as a printable, linear blocks of text",
+		"notes": "Fits a gamebook onto a postcard."
 	},
 	{
 		"name": "PrePub",
@@ -313,11 +430,13 @@
 		"base": "https://mcdemarco.net/tools/scree/prepub/",
 		"icon": "icon.svg",
 		"repo": "https://github.com/mcdemarco/prepub/src/default/",
+		"license": "MIT",
 		"official": false,
 		"twine1": true,
 		"twine2": true,
 		"proofing": true,
 		"tags": ["markdown"],
+		"description": "A Markdown story format for use with Pandoc.",
 		"extendedDescription": "converts a Twine 1 or 2 story into a MultiMarkdown format used for generating eBooks",
 		"basedOn": "enscree"
 	},
@@ -334,6 +453,7 @@
 		"twine2": true,
 		"proofing": false,
 		"tags": ["markdown"],
+		"description": "A format for power users",
 		"extendedDescription": "\"A Twine story format with power!\"",
 		"basedOn": "Snowman",
 		"notes": "Note that rawgit is shutting down, though this particular repository was still being served at the time of writing."
@@ -342,7 +462,7 @@
 		"name": "reach",
 		"author": "Mike Spears",
 		"docs": "https://ecampusontario.pressbooks.pub/reach/",
-		"base": "https://github.com/UofTMADLab/reach-dist/",
+		"base": "https://cdn.jsdelivr.net/gh/UofTMADLab/reach-dist/",
 		"icon": "icon.svg",
 		"repo": "https://github.com/UofTMADLab/reach-dist",
 		"license": "MIT",
@@ -353,7 +473,7 @@
 		"tags": ["markdown"],
 		"description": "reach is a twine story format for authoring immersive XR narratives, environments and prototypes.",
 		"basedOn": "Snowman",
-		"notes": "Note that source code is not provided.  The Snowman basis is a rumor."
+		"notes": "Note that the format file is named reach.js."
 	},
 	{
 		"name": "Responsive",
@@ -421,7 +541,7 @@
 		"tags": [],
 		"description": "A minimal story format for authors experienced with HTML, CSS, and JavaScript.",
 		"extendedDescription": "a bare-bones built-in Twine 2 story format for those fluent in JavaScript, upon which many indie formats have been based",
-		"notes": "The Twine 1 version repo was in Mercurial on Bitbucket and deleted.  The main repo has a new maintainer."
+		"notes": "The Twine 1 version repo was in Mercurial on Bitbucket and deleted.  The main repo has a new maintainer, Dan Cox."
 	},
 	{
 		"name": "Sugarcane",
@@ -439,24 +559,27 @@
 		"name": "SugarCube",
 		"author": "Thomas Michael Edwards",
 		"docs": "http://www.motoslave.net/sugarcube/2/docs/",
-		"base": "https://twinery.org/2/story-formats/sugarcube-2.34.1/",
+		"base": "https://twinery.org/2/story-formats/sugarcube-2.36.1/",
 		"icon": "icon.svg",
-		"repo": "",
+		"repo": "https://github.com/tmedwards/sugarcube-2",
+		"license": "Simplified BSD License",
 		"official": true,
 		"twine1": true,
 		"twine2": true,
 		"proofing": false,
 		"tags": [],
+		"description": "A full featured, highly customizable story format.  See its <a href=\"http://www.motoslave.net/sugarcube/2/#documentation\" target=\"_blank\">documentation</a>.",
 		"extendedDescription": "the most flexible and powerful story format"
 	},
 	{
 		"name": "Trialogue",
 		"author": "Philo van Kemenade",
 		"demo": "https://fillafulla.sng.sk/chat/",
+		"base": "https://raw.githubusercontent.com/phivk/trialogue/main/dist/Twine2/Trialogue/",
 		"icon": "icon.svg",
 		"repo": "https://github.com/phivk/trialogue",
 		"official": false,
-		"twine1": false,
+		"twine1": true,
 		"twine2": true,
 		"proofing": false,
 		"tags": ["stretchtext"],
@@ -466,22 +589,54 @@
 	{
 		"name": "TwineJson",
 		"author": "Cauli Tomaz",
-		"icon": "icon.svg",
 		"repo": "https://github.com/cauli/TwineJson",
+		"base": "https://raw.githubusercontent.com/cauli/TwineJson/master/dist/",
+		"icon": "icon.svg",
 		"license": "MIT License",
 		"official": false,
 		"twine1": false,
 		"twine2": true,
 		"proofing": true,
-		"tags": [],
+		"tags": ["JSON"],
 		"extendedDescription": "exports a story to JSON, possibly in hierarchical format",
 		"notes": "This format was once hosted, but that domain is gone."
 	},
 	{
+		"name": "TwineSpace",
+		"author": "Dan Cox et al.",
+		"repo": "https://github.com/videlais/twine-space",
+		"docs": "https://videlais.github.io/twine-space/#/",
+		"base": "https://videlais.github.io/twine-space/dist/",
+		"icon": "icon.svg",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": [],
+		"description": "A Twine 2 story format supporting locative and mixed reality projects",
+		"notes": "There are two different format.js files, for different levels of functionality."
+	},
+	{
+		"name": "twine2-story-format",
+		"author": "exercism",
+		"repo": "https://github.com/exercism/twine2-story-format",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": ["markdown"],
+		"description": "Story format to build exercism walkthroughs",
+		"extendedDescription": "The story format is based on snowman, and its only difference is that any text within code blocks aren't converted to links.",
+		"basedOn": "Snowman",
+		"notes": "Appears to be a minor Snowman variant."
+	},
+	{
 		"name": "twine-monogatari",
 		"author": "Haroldo O. Pinheiro",
-		"demo": "http://www.haroldo-ok.com/twine-monogatari/v0.1.0/demo.html",
-		"base": "http://www.haroldo-ok.com/twine-monogatari/v0.1.0/",
+		"demo": "https://haroldo-ok-2.github.io/twine-monogatari/v0.2.0/demo.html",
+		"base": "https://haroldo-ok-2.github.io/twine-monogatari/v0.2.0/",
 		"repo": "https://github.com/haroldo-ok/twine-monogatari/",
 		"license": "MIT License",
 		"official": false,
@@ -493,8 +648,24 @@
 		"basedOn": "Twison"
 	},
 	{
+		"name": "twine-to-json",
+		"author": "Jonathan Schoonhoven",
+		"base": "https://jtschoonhoven.github.io/twine-to-json/dist/",
+		"repo": "https://github.com/jtschoonhoven/twine-to-json",
+		"license": "MIT License",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": ["JSON"],
+		"description": "Twine format for converting a stories to JSON",
+		"extendedDescription": "\"You should probably use Twison. Twine-to-JSON currently has an unstable API and is less well tested. However, if Twison isn't working for you, you may have better luck with Twine-to-JSON.\"",
+		"notes": "There's a plain version and a Harlowe version, neither named format.js."
+	},
+	{
 		"name": "TwingeX",
 		"author": "Ben (that guy) Winding",
+		"base": "https://cdn.jsdelivr.net/gh/benwinding/twingex@master/",
 		"format": "twingex.js",
 		"icon": "icon.svg",
 		"repo": "https://github.com/benwinding/twingex",
@@ -503,7 +674,7 @@
 		"twine2": true,
 		"proofing": true,
 		"license": "MIT License",
-		"tags": [],
+		"tags": ["JSON"],
 		"description": "The extremely simple 'twingex' format.",
 		"extendedDescription": "a JSON exporter that also has a headless (command-line) option",
 		"basedOn": "Entweedle",
@@ -518,7 +689,7 @@
 		"twine1": false,
 		"twine2": true,
 		"proofing": true,
-		"tags": [],
+		"tags": ["JSON"],
 		"license": "MIT License",
 		"description": "Export your Twine 2 story as a JSON document",
 		"extendedDescription": "another JSON exporter whose goal \"is to make it easy to use Twine as a frontend for forms of storytelling that differ from Twine's default hypertext output\"",
@@ -563,6 +734,21 @@
 		"proofing": false,
 		"tags": ["gamebook"],
 		"extendedDescription": "Outputs a twine story in gamebook format, listing all passages in a shuffled order, and changing links to a '(turn to 123)' instruction",
-		"notes": "Note that the full path is base + writingfantasy_1.js or writingfantasy_1_min.js; this is the only catalogued format not named 'format.js' (or minified).  H/t gordianbook.art."
+		"notes": "Note that the full path is base + writingfantasy_1.js or writingfantasy_1_min.js.  H/t gordianbook.art."
+	},
+	{
+		"name": "YarnTwiner",
+		"author": "Khan-ali Ibrahim",
+		"repo": "https://github.com/KXI-System/YarnTwiner",
+		"docs": "https://github.com/KXI-System/YarnTwiner/blob/master/DOCS.md",
+		"base": "https://kxi-system.github.io/YarnTwiner/release/",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"license": "MIT License",
+		"tags": [],
+		"description": "The Twine story format that lets you write and export to Yarn!",
+		"notes": "Note that the format file names are not standard."
 	}
 ]
