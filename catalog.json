@@ -82,6 +82,20 @@
 		"notes": "There's also a 'micro' version without test-related code available at https://klembot.github.io/chapbook/use/1.2.3-micro/format.js."
 	},
 	{
+		"name": "CopyPaste",
+		"author": "cocoknightcom",
+		"base": "https://cocoknight.com/CopyPaste/dist/",
+		"image": "icon.svg",
+		"repo": "https://github.com/cocoknightcom/CopyPaste",
+		"license": "MIT",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": true,
+		"tags": [],
+		"description": "A Twine 2 Proofing Story Format that cuts it. Exclude passages with a TODO tag."
+	},
+	{
 		"name": "Daelog",
 		"author": "Dan Cox",
 		"repo": "https://github.com/videlais/daelog",
