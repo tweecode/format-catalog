@@ -93,7 +93,7 @@
 		"twine2": true,
 		"proofing": true,
 		"tags": [],
-		"description": "A Twine 2 Proofing Story Format that cuts it. Exclude passages with a TODO tag."
+		"description": "A Twine 2 Proofing Story Format that cuts it. Filter passages by tag."
 	},
 	{
 		"name": "Daelog",
