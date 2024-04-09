@@ -16,6 +16,7 @@ I did not include the url field because I broke the web locations down into more
 * docs: a URL providing documentation
 * demo: a URL providing a demo story.
 * base: the base url for getting the Twine 2 format (ideally using HTTPS) and icon files.  Note that github will not serve format files correctly by default, so use the "raw" github link if you must.
+* archive: a URL providing an archive of a lost repo
 * format: the filename of the story format if it isn't "format.js".
 * repo: the URL of the code repository for the format.
 * official (boolean): is this an official Twine 1 or 2 format?

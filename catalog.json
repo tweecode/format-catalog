@@ -249,7 +249,7 @@
 		"name": "Harlowe",
 		"author": "Leon Arnott",
 		"docs": "https://twine2.neocities.org",
-		"base": "https://twinery.org/2/story-formats/harlowe-3.3.7/",
+		"base": "https://twinery.org/2/story-formats/harlowe-3.3.8/",
 		"image": "icon.svg",
 		"repo": "https://foss.heptapod.net/games/harlowe",
 		"official": true,
@@ -539,6 +539,7 @@
 		"base": "",
 		"image": "icon.svg",
 		"repo": "https://bitbucket.org/crzybvr69/snowcat/",
+		"archive": "https://bitbucket-archive.softwareheritage.org/projects/cr/crzybvr69/snowcat.html",
 		"official": false,
 		"twine1": false,
 		"twine2": true,
@@ -546,7 +547,7 @@
 		"tags": ["unavailable"],
 		"extendedDescription": "\"creating a merger of Snowman and Harlowe\"",
 		"basedOn": "Snowman",
-		"notes": "Insert your own abominable joke here.  The repo was in Mercurial on Bitbucket and deleted."
+		"notes": "Insert your own abominable joke here.  The repo was in Mercurial on Bitbucket and deleted.  See the archive."
 	},
 	{
 		"name": "Snowman",
@@ -561,7 +562,7 @@
 		"tags": [],
 		"description": "A minimal story format for authors experienced with HTML, CSS, and JavaScript.",
 		"extendedDescription": "a bare-bones built-in Twine 2 story format for those fluent in JavaScript, upon which many indie formats have been based",
-		"notes": "The Twine 1 version repo was in Mercurial on Bitbucket and deleted.  The main repo has a new maintainer, Dan Cox."
+		"notes": "The main repo has a new maintainer, Dan Cox.  The Twine 1 version repo was in Mercurial on Bitbucket and deleted.  There is an archive, including a pre-built release, here:  https://bitbucket-archive.softwareheritage.org/projects/kl/klembot/snowman-1.4.html"
 	},
 	{
 		"name": "Sugarcane",
@@ -723,6 +724,7 @@
 		"name": "Twize",
 		"author": "Derek Timm-Brock",
 		"repo": "https://bitbucket.org/derektb/twize/",
+		"archive": "https://bitbucket-archive.softwareheritage.org/projects/de/derektb/twize.html",
 		"official": false,
 		"twine1": false,
 		"twine2": true,
@@ -731,7 +733,7 @@
 		"tags": ["stretchtext"],
 		"description": "An opinionated Twine storyformat designed for making Wizard Town-style interactive comics",
 		"extendedDescription": "\"an opinionated Twine StoryFormat designed for building and displaying interactive comics\"",
-		"notes": "The repo was in Mercurial on Bitbucket and deleted.  Apparently replaced by Jinx."
+		"notes": "Apparently replaced by Jinx.  The repo was in Mercurial on Bitbucket and deleted.  See the archive."
 	},
 	{
 		"name": "Wasteland",
