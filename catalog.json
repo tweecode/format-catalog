@@ -64,6 +64,21 @@
 		"notes": "One wonders how well serving a story format from a github releases page works."
 	},
 	{
+		"name": "Brick",
+		"author": "Chris Neidhart",
+		"docs": "https://brick-if.readthedocs.io/",
+		"base": "https://cjneidhart.github.io/brick/v0.4.1/",
+		"image": "icon.svg",
+		"repo": "https://github.com/cjneidhart/brick",
+		"license": "GPL 3.0",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": false,
+		"tags": [],
+		"description": "A modern story format with a JavaScript-like syntax, and a focus on performance and simplicity."
+	},
+	{
 		"name": "Chapbook",
 		"author": "Chris Klimas",
 		"docs": "https://klembot.github.io/chapbook/",
@@ -407,6 +422,20 @@
 		"description": "The default proofing format for Twine 2. Icon designed by <a href=\"http://www.thenounproject.com/Simon Child\">Simon Child</a> from the <a href=\"http://www.thenounproject.com\">Noun Project</a>",
 		"extendedDescription": "the built-in proofing format for Twine 2",
 		"notes": "Paperthin takes a pure CSS approach to display passage contents."
+	},
+	{
+		"name": "PaperthinForPrint",
+		"author": "Chris Klimas, Paweł Dziemski",
+		"base": "https://stormweavers.com/twinetools/paperthin-for-print/",
+		"image": "icon.svg",
+		"repo": "https://github.com/SnoriPiper/paperthin-for-print",
+		"license": "ZLib/Libpng",
+		"official": false,
+		"twine1": false,
+		"twine2": true,
+		"proofing": true,
+		"tags": [],
+		"description": "The proofing format for Twine 2, based on Paperthin. It displays passages in alphabetical order."
 	},
 	{
 		"name": "Poof",
